@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "react-credit-cards": "^0.8.3"
+    "axios": "^0.27.1",
+    "react-credit-cards": "^0.8.3",
+    "react-css-styled": "^1.0.3"
   }
 }
