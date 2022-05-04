@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+img{
+  position:relative;
+  width: 100%;
+}
+.Forms{
+  display: grid;
+  width: 50%;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+  border:2px solid red;
+  gap: 10px;
+  
+}
+.Forms>input{
+  border-radius: 10px;
+}
+.cardcredit{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
