@@ -1,0 +1,48 @@
+1.What is React?
+A:Java script Library for building user interface
+2.What is user ?
+A;the means by which the user and a computer system interact, in particular the use of input devices and software.
+3.What is Virtual DOM?
+A:A vDM is A copy of Actual dom used by react for performing DOM operation faster
+
+4.What are Hooks in React?
+A:Hooks are functions in react to manage state in side a react component
+
+4:What is use state?
+A:Use state create a state variable in react with initial value;
+
+
+5.What is State variable?
+A:
+
+5.USE effect?
+A:Useeffect is  a way to excute a call back function under a conditions
+
+
+6.UseRef?
+A:Useto store a value and not loosing it when component is updated/re-render
+changing useref value  wont trigger
+
+7:What are props?
+A;values passed from one component to another component
+
+
+8:What is children?
+
+
+9.What is passing props means?
+10.What is state uplifting?
+as we cant pass values from children to parent , we move our state info parent and take this values to children again in a function 
+
+
+
+
+in context APi there is two things
+1.Provider
+2.consumer
+
+
+
+
+
+1.what is state uplifiting?

@@ -2,9 +2,9 @@ import { createContext, useState } from "react";
 import axios from "axios";
 export const AuthContext = createContext();
 export const AuthContextProvider = ({ children }) => {
-  const  [isAuth, setIsAuth]  = useState(false);
-  function toggleAuth() {
-      if (isAuth==false) {
+  const  [Autho, setIsAuth]  = useState(false);
+  function Authotoggle() {
+      if (Autho==false) {
         axios
       .post("https://reqres.in/api/login", {
         email: "eve.holt@reqres.in",
@@ -23,5 +23,5 @@ export const AuthContextProvider = ({ children }) => {
         })
     }
   }
-  return <AuthContext.Provider value={{isAuth,toggleAuth}}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{Autho,Authotoggle}}>{children}</AuthContext.Provider>;
 };
